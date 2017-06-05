@@ -254,7 +254,7 @@ public class MainActivity extends BaseActivity {
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         //奔溃前保存位置
-        LogUtils.loge("onSaveInstanceState进来了1");
+        LogUtils.loge("onSaveInstanceState 进来了1");
         if (tabLayout != null) {
             LogUtils.loge("onSaveInstanceState进来了2");
             outState.putInt(AppConstant.HOME_CURRENT_TAB_POSITION, tabLayout.getCurrentTab());
